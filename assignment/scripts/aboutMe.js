@@ -1,22 +1,22 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = 'Cheenou';
-console.log( 'firstName' );
+console.log( 'Hi my first name is ' + firstName );
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Thao';
-console.log( lastName );
+console.log('My last name is ' + lastName );
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = 'Cheenou Thao';
-console.log( fullName );
+console.log( 'My full name is ' + fullName );
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 14
-console.log(luckyNumber);
+console.log('My lucky number is '+  luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
