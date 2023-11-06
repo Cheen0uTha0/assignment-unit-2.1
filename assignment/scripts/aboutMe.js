@@ -58,10 +58,10 @@ console.log('I am only allow to have '  + allowedPets + ' pets');
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result = 'Adventures are great!'
-if( adventurous === true ){console.log(result);
+if( adventurous === true ){console.log('I am very adventurous '+ result);
 }
   result = 'How about we stay home?'
-if(adventurous === false){console.log(result);
+if(adventurous === false){console.log('I am not adventurous ' + result);
 }
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
