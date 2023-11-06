@@ -29,29 +29,29 @@ console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = false
-console.log(adventurous);
+console.log('adventurous is '+  adventurous);
 
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 let food = 'pho'
-console.log(food);
+console.log('One of my favorite food dish is ' + food);
 
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
 let pets = 0
-console.log(pets);
+console.log('pets ' + pets);
 
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 1
-console.log(friendsPets);
+console.log('friends pet is ' + friendsPets);
 
 // 10 - Add two pets to your `pets` variable
 pets++;
-console.log(pets++);
+console.log('I went and bought a pet now I have ' + pets++ + ' pet');
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 2
-console.log(allowedPets);
+console.log('I am only allow to have '  + allowedPets + ' pets');
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
