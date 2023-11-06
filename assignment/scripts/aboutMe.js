@@ -57,14 +57,19 @@ console.log('I am only allow to have '  + allowedPets + ' pets');
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-
-
+let result = 'Adventures are great!'
+if( adventurous === true ){console.log(result);
+}
+  result = 'How about we stay home?'
+if(adventurous === false){console.log(result);
+}
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
